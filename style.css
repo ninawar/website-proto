@@ -1,0 +1,295 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: "open sans";
+box-sizing: border-box;
+}
+
+body {
+  display: inherit;
+
+}
+
+.header{
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-color: black
+ 
+}
+
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.container{
+  text-align: right; 
+}
+.btn{
+  border: 1px solid #FFFFFF;
+  background: none;
+  padding:0.1% 1%;
+ font-size: 15px; 
+  cursor: pointer;
+  margin: 5px;
+  color: #FFFFFF;
+}
+
+.navigation {
+  color: white;
+  float: right;
+  height: 100%
+}
+
+.navigation a{
+color: white;
+height: 100%; 
+display: table; 
+float: left; 
+font-size: 20px; 
+padding: 0px 70px;
+}
+
+.navigation a:last-child{
+  padding-right:100px;
+}
+
+.navigation a:hover{
+  color: #1D458A;
+}
+
+
+.blockquote {
+max-width: 50%;
+margin: 5%;
+padding-top: 15%;
+font-size: 30px;
+font-style: oblique;
+}
+.blockquote_text_credit {
+font-weight: bold;
+font-style: normal;
+text-align: right;
+padding: 5px 0px;
+}
+
+.frontPage {
+width: 23%;
+height: 10%;
+margin: 150px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 2px;
+text-align: center;
+position: relative;
+max-width: 100% ;
+}
+
+h1:before{
+  content:"";
+  display: block;
+  width:40%;
+  height: 2px; 
+  background: #000;
+  position: absolute;
+  left:0;
+  top:50%;
+  z-index:-2;
+}
+
+h1:after{
+  content:"";
+  display: block;
+  width:40%;
+  height: 2px; 
+  background: #000;
+  position: absolute;
+  right:0;
+  top:50%;
+  z-index:-2;
+}
+
+span{
+  background: #FFFFFF;
+}
+
+.right{
+display: inline-block;
+
+}
+
+h2 {
+text-align: center;
+padding-top: 10px;
+max-width: 50%;
+}
+
+
+.child{
+border: 5px solid red;
+}
+
+.parent{
+display:flex;
+}
+
+.contwrap{
+  width: 400px;
+  Height:170px;
+  margin: 100px auto;
+  background: black;
+  position: relative;
+}
+.contwrap p{
+text-align: center;
+position: relative;
+top: 30%;
+}
+
+.address{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.twi{
+height: 50px;
+width:50px;
+margin-left: 45%;
+
+}
+
+.tw{
+height: 55px;
+width:55px;
+}
+
+.dv p{
+ width: 400px;
+  Height:170px;
+  margin: 100px auto;
+  background: black;
+}
+
+.cont{
+width: 400px;
+Height:400px;
+  background: black;
+  position: relative;
+display: inline-block;
+margin-left : 15%;
+}
+
+.cont p{
+
+position: relative;
+top: 10%;
+padding: 10px;
+
+}
+
+.DV {
+  margin-left: 19px;
+}
+
+.first {
+  margin-left: 20%; 
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.second {
+  margin-left: 26%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sup {
+width:100%;
+height:70%;
+
+}
+
+.bod{
+  background-image: url('Support.jpg');
+background-position: center;
+object-fit: cover;
+}
+
+.join{
+  color: white;
+}
+
+.name {
+  color:white;
+}
+.regform{
+  margin-top: 10%;
+  width:650px;
+  height:300px;
+  background-color: rgb(0,0,0,0.6);
+  margin-left: 20%;
+  color: #FFFFFF
+  padding: 10px 0px 10px 0px;
+  text-align:center;
+  border-radius: 15px 15px 0 0;
+}
+
+.form {
+  padding: 10px;
+}
+
+#name {
+  width:100%;
+  height 100px;
+}
+
+.name {
+margin-left: 25px;
+margin-top:30px;
+width:125px;
+color: white;
+}
+
+.firstname {
+  position: relative;
+  left: -100px;
+ top: -22px;
+  padding: 0 22px;
+}
+
+.email{
+  position: relative;
+    left: -100px;
+ top: -24px;
+ padding: 0 22px;
+}
+
+.code{
+   position: relative;
+    left: -100px;
+ top: -24px;
+ padding: 0 22px;
+}
+
+.lern{
+padding:20px;
+}
+
+.lern2{
+  padding:40px 50px;
+    background-image: url('wall.jpg');
+background-position: center;
+object-fit: cover;
+}
+
